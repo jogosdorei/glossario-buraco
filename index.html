@@ -162,6 +162,50 @@
     }
     .search-box input:focus { border-color: #a52535; }
     #no-results { display: none; color: #888; text-align: center; padding: 2rem; }
+    nav {
+      background: #5e1520;
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: rgba(255,255,255,0.85);
+      text-decoration: none;
+      padding: 0.65rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      transition: background 0.15s, color 0.15s;
+    }
+    nav a:hover, nav a.active {
+      background: rgba(255,255,255,0.12);
+      color: white;
+    }
+    nav a.active {
+      border-bottom: 3px solid #e8a0a8;
+    }
+    .modal-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    @media (min-width: 700px) {
+      .modal-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .modal-card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      border-top: 3px solid #7c1c2a;
+    }
+    .modal-card h3 { font-size: 1.05rem; color: #7c1c2a; margin-bottom: 0.4rem; }
+    .modal-card p { font-size: 0.93rem; color: #444; margin-bottom: 0.5rem; }
+    .modal-card a { color: #a52535; font-weight: 600; text-decoration: none; font-size: 0.88rem; }
+    .modal-card a:hover { text-decoration: underline; }
+    .modal-card .tag { display: inline-block; background: #f5e6e8; color: #a52535; border-radius: 4px; padding: 0.1rem 0.5rem; font-size: 0.75rem; font-weight: 600; margin-bottom: 0.5rem; }
   </style>
 </head>
 <body>
@@ -171,6 +215,12 @@
   <p>Todos os termos e expressões do jogo de cartas mais popular do Brasil</p>
   <span class="badge">Referência completa • Atualizado em 2026</span>
 </header>
+
+<nav>
+  <a href="./index.html" class="active">🃏 Buraco</a>
+  <a href="./tranca.html">🔒 Tranca</a>
+  <a href="./truco.html">⚔️ Truco</a>
+</nav>
 
 <div class="container">
 
@@ -402,6 +452,41 @@
       <span class="tag">Expressão</span>
       <h3>Buraco = Canastra?</h3>
       <p>Sim! "Buraco" e "Canastra" são o <strong>mesmo jogo</strong> com nomes regionais diferentes. São Paulo e Sul preferem "Buraco". Minas Gerais e Nordeste chamam de "Canastra". As regras são idênticas.</p>
+    </div>
+
+  </div>
+
+  <!-- SEÇÃO: Modalidades do Buraco -->
+  <h2><span>🎮</span> Modalidades do Buraco</h2>
+  <p style="color:#666;font-size:0.95rem;margin-bottom:1.25rem;">O Buraco tem diferentes variantes com regras próprias. Confira as principais modalidades disponíveis no Jogos do Rei:</p>
+  <div class="modal-grid">
+
+    <div class="modal-card">
+      <span class="tag">Modalidade</span>
+      <h3>Buraco Aberto</h3>
+      <p>A modalidade mais jogada no Brasil. Usa <strong>104 cartas</strong> (2 baralhos sem Curingão/Joker). <strong>Não aceita trinca</strong> — os jogos são formados apenas por sequências do mesmo naipe. É o modo padrão do Jogos do Rei.</p>
+      <a href="https://www.jogosdorei.com.br" target="_blank" rel="noopener">Jogar Buraco Aberto →</a>
+    </div>
+
+    <div class="modal-card">
+      <span class="tag">Modalidade</span>
+      <h3>Buraco Fechado</h3>
+      <p>Usa <strong>108 cartas</strong> (2 baralhos com os 4 Curingões/Jokers incluídos). <strong>Aceita trinca</strong> (3+ cartas do mesmo valor). No lixo, só a última carta descartada fica visível — as demais ficam escondidas. O Curingão vale <strong>50 pontos</strong>.</p>
+      <a href="https://www.jogosdorei.com.br" target="_blank" rel="noopener">Jogar Buraco Fechado →</a>
+    </div>
+
+    <div class="modal-card">
+      <span class="tag">Modalidade</span>
+      <h3>STBL — Sem Trinca e Bate com Limpa</h3>
+      <p>Variante do Buraco Fechado (108 cartas, com Curingão) com duas restrições extras: <strong>sem trinca</strong> e o jogador só pode fazer a batida final se tiver pelo menos uma <strong>canastra limpa</strong> na mesa. Exige estratégia mais cuidadosa.</p>
+      <a href="https://www.jogosdorei.com.br" target="_blank" rel="noopener">Jogar STBL →</a>
+    </div>
+
+    <div class="modal-card">
+      <span class="tag">Modalidade</span>
+      <h3>Canastra Italiano / Buraco Italy</h3>
+      <p>Versão italiana do Buraco com <strong>108 cartas</strong> (inclui Curingões). <strong>Aceita trinca e lavadeira</strong> — uma modalidade com mais liberdade para montar combinações criativas. Popular entre jogadores experientes.</p>
+      <a href="https://www.jogosdorei.com.br/inicio/?jogo=BURACO_ITALY_4" target="_blank" rel="noopener">Jogar Buraco Italy →</a>
     </div>
 
   </div>
