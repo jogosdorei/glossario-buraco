@@ -1,12 +1,15 @@
-# Glossário de Buraco, Canastra, Tranca e Truco
+# Glossário de Buraco, Canastra, STBL, Tranca, Truco, Sueca e Dominó
 
 Um glossário completo e comparativo dos termos e regras dos jogos de cartas brasileiros disponíveis no [Jogos do Rei](https://www.jogosdorei.com.br).
 
 ## Páginas disponíveis
 
 - [Glossário de Buraco e Canastra](index.html) – Termos do Buraco Aberto
+- [Glossário do STBL](stbl.html) – Buraco Fechado Sem Trinca e Bate com Limpa: sem trinca, batida com canastra limpa, Curingão
 - [Glossário de Tranca](tranca.html) – Termos e regras da Tranca (com 3 preto e 3 vermelho)
-- [Glossário de Truco Paulista](truco.html) – Termos, manilhas, sinais e apostas do Truco
+- [Glossário de Truco Paulista](truco.html) – Termos, manilhas, sinais e aumentos do Truco
+- [Glossário de Sueca](sueca.html) – Trunfo, vaza, bisca, assistência ao naipe e bandeira/capote
+- [Glossário de Dominó](domino.html) – Peça, pintas, pontas abertas, passe, batida e jogo fechado
 - [Comparativo de Modalidades](comparativo.html) – Tabela comparativa entre Buraco Aberto, Buraco Fechado, STBL, Tranca e Truco
 
 ## Sobre o projeto
@@ -32,9 +35,13 @@ O código é aberto e pode ser reutilizado para fins educacionais. O design é t
 ### Estrutura
 
 - `index.html` – Glossário principal do Buraco/Canastra
+- `stbl.html` – Glossário do Buraco Fechado STBL
 - `tranca.html` – Glossário da Tranca
 - `truco.html` – Glossário do Truco Paulista
+- `sueca.html` – Glossário da Sueca
+- `domino.html` – Glossário do Dominó
 - `comparativo.html` – Tabela comparativa entre todas as modalidades
+- `sitemap.xml` / `robots.txt` – Indexação
 - `_config.yml` – Configuração básica do GitHub Pages
 - `README.md` – Este arquivo
 
