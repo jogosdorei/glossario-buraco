@@ -1,10 +1,11 @@
-# Glossário de Buraco, Canastra, STBL, Tranca, Truco, Sueca e Dominó
+# Glossário de Buraco, Canastra (Buraco Italiano), STBL, Tranca, Truco, Sueca e Dominó
 
 Um glossário completo e comparativo dos termos e regras dos jogos de cartas brasileiros disponíveis no [Jogos do Rei](https://www.jogosdorei.com.br).
 
 ## Páginas disponíveis
 
 - [Glossário de Buraco e Canastra](index.html) – Termos do Buraco Aberto
+- [Glossário da Canastra](canastra.html) – Canastra (Buraco Italiano): 108 cartas com Curingão, trinca/lavadeira, canastra limpa e suja (sem 500/1000), batida com canastra suja
 - [Glossário do STBL](stbl.html) – Buraco Fechado Sem Trinca e Bate com Limpa: sem trinca, batida com canastra limpa, Curingão
 - [Glossário de Tranca](tranca.html) – Termos e regras da Tranca (com 3 preto e 3 vermelho)
 - [Glossário de Truco Paulista](truco.html) – Termos, manilhas, sinais e aumentos do Truco
@@ -34,7 +35,8 @@ O código é aberto e pode ser reutilizado para fins educacionais. O design é t
 
 ### Estrutura
 
-- `index.html` – Glossário principal do Buraco/Canastra
+- `index.html` – Glossário principal do Buraco (Buraco Aberto)
+- `canastra.html` – Glossário da Canastra (Buraco Italiano)
 - `stbl.html` – Glossário do Buraco Fechado STBL
 - `tranca.html` – Glossário da Tranca
 - `truco.html` – Glossário do Truco Paulista
