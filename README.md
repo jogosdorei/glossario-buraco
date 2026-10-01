@@ -53,4 +53,4 @@ O conteúdo deste glossário é propriedade do Jogos do Rei e está disponível 
 
 ---
 
-🔗 **Jogue agora**: [jogosdorei.com.br](https://www.jogosdorei.com.br) – mais de 3 milhões de jogadores
+🔗 **Jogue agora**: [jogosdorei.com.br](https://www.jogosdorei.com.br) – mais de 3 milhões de inscritos
